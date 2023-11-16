@@ -1,0 +1,6 @@
+apt update -y
+apt-get install apache2 -y && systemctl start apache2.service && apt-get install php -y
+cp api.php /var/wwww/html
+http://yourwebsite.com/api.php?key=[key]&host=[host]&port=[port]&time=10&method=[method]
+key là huy nha 
+methods add sẳn rồi anh em thay scip vào là ok nha
